@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-top: 200px;
+  max-width: 1271px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+.container .sign-up {
+  max-width: 531px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .sign-up h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+}
+.container .sign-up h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: rgba(102, 102, 102, 0.8);
+}
+.container .sign-up .google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+  border: 1px solid #666666;
+  border-radius: 40px;
+  font-family: "Work Sans", sans-serif;
+  padding: 15px;
+}
+.container .sign-up .google a {
+  color: #333333;
+}
+.container .sign-up .line-side {
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+.container .sign-up .line-side .line {
+  border-bottom: 2px solid rgba(102, 102, 102, 0.25);
+  width: 226.5px;
+  height: 0px;
+}
+.container .sign-up .form input {
+  max-width: 347px;
+  width: 100%;
+  height: 56px;
+  border-radius: 12px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.container .sign-up .form button {
+  max-width: 163px;
+  width: 100%;
+  height: 56px;
+  background: #505ABB;
+  border-radius: 12px;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.container .sign-up .read-me {
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  color: rgba(102, 102, 102, 0.7);
+}
+.container .sign-up .read-me a {
+  color: black;
+  text-decoration: underline;
+}
+.container .photo {
+  max-width: 688px;
+}
+.container .photo img {
+  width: 100%;
+}/*# sourceMappingURL=sign-up.css.map */

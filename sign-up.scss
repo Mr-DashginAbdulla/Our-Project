@@ -1,0 +1,102 @@
+@import './variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    padding-top: 200px;
+    max-width: 1271px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    .sign-up{
+        max-width: 531px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        h1{
+            font-family: $main-font;
+            font-weight: 600;
+            font-size: 48px;
+        }
+        h2{
+            font-family:$main-font;
+            font-weight: 400;
+            font-size: 28px;
+            color: #666666CC;
+        }
+
+        .google{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            text-align: center;
+            border: 1px solid #666666;
+            border-radius: 40px;
+            font-family: $main-font;
+            padding: 15px;
+            a{
+                color: #333333;
+            }
+        }
+        .line-side{
+            color: #666666;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: $main-font;
+            .line{
+                border-bottom: 2px solid rgba(102, 102, 102, 0.25);
+                width: 226.5px;
+                height: 0px;
+            }
+        }
+        .form{
+            input{
+                max-width: 347px;
+                width: 100%;
+                height: 56px;
+                border-radius: 12px;
+                font-size: 16px;
+                padding-left: 20px;
+            }
+            button{
+                max-width: 163px;
+                width: 100%;
+                height: 56px;
+                background: #505ABB;
+                border-radius: 12px;
+                font-family: $main-font;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+        .read-me{
+            font-weight: 400;
+            font-family: $main-font;
+            color: rgba(102, 102, 102, 0.7);
+            a{
+                color: black;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .photo{
+        max-width: 688px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
